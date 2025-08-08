@@ -1,7 +1,7 @@
 print("Counting from 1 to 5")
 for i in range(1,6) :
      print(i)
-     print("priewjeed")
+     print("Pei")
 
 
      print("\n Reversd Counting from 5 to 1")
