@@ -1,0 +1,45 @@
+# numbers = [1,2,3,4,"Hello",True]
+# #index     0 1 2 3    4      5
+# print(numbers[5])
+
+
+# #index   0,1,2,3,4
+# numbers[1] = 99
+# numbers.append(9)
+# numbers.remove(1)
+
+# print(numbers)
+# print(len(numbers))
+
+#Slicing list
+numbers = [1,2,3,4,5]
+# #index   0,1,2,3,4
+print(numbers[1:5])
+print(numbers[::3])
+print(numbers[::-1])
+print(numbers + [6,7,8])
+print(numbers *2)
+
+
+
+#Dictionaries
+Student = {
+    "name" : "Pei",
+    "age" : 19,
+    "Gender"   : "Female"
+}
+
+print(Student["name"])
+print(Student)
+
+Student["grade"] = "A"
+Student["age"] += 10
+print(Student)
+
+# keys 
+# values
+# items -> keys values แสดงผลพร้อมกัน
+
+print(Student.keys())
+print(Student.values())
+print(Student.items())
